@@ -178,24 +178,9 @@ if __name__ == '__main__':
     num_epoch = int(sys.argv[6])
     #number of hidden units
     D = int(sys.argv[7])
-
-    # D_1 = int(sys.argv[7])
-    # D_2 = int(sys.argv[8])
-    # D_3 = int(sys.argv[9])
-    # D_4 = int(sys.argv[10])
-    # D_5 = int(sys.argv[11])
-    # D = [D_1, D_2, D_3,D_4, D_5]
-    # #init_flag
-    # init_flag =  int(sys.argv[12])
-    # learn_rate = float(sys.argv[13])
-
     init_flag =  int(sys.argv[8])
     # # learning rate
     learn_rate = float(sys.argv[9])
-    # lr_1 = float(sys.argv[9])
-    # lr_2 = float(sys.argv[10])
-    # lr_3 = float(sys.argv[11])
-    # lr = [lr_1, lr_2, lr_3]
 
     #store data
     train_data = store_data(train_input)
